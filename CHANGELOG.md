@@ -2,6 +2,19 @@
 
 All notable changes to nvrs will be documented in this file.
 
+## [0.1.10] - 2026-04-23
+
+### 📚 Documentation
+
+- remove banner ([3d18ce4](https://github.com/koibtw/nvrs/commit/3d18ce4a3684c4b75ece50785840a14c7bd24ab2))
+- fix mdbook ([25f8f09](https://github.com/koibtw/nvrs/commit/25f8f09b601ac9838e142cdf17f21877f3109513))
+
+### ⚙️ Miscellaneous
+
+- update FUNDING.yml ([35765ca](https://github.com/koibtw/nvrs/commit/35765cafd5ec9755e42dd8b19e0643d1d74afa6b))
+- set direnv up ([ec3a791](https://github.com/koibtw/nvrs/commit/ec3a791d8256ce1f66f9f208e9d595125ba2f4ff))
+- update names, emails and domains ([a984132](https://github.com/koibtw/nvrs/commit/a9841328e13b618dba32a064454b4b5ab8ebc8cd))
+
 ## [0.1.9] - 2025-10-14
 
 ### 🚀 Features
