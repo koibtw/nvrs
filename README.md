@@ -7,8 +7,6 @@
 ![Build Status](https://img.shields.io/github/actions/workflow/status/koibtw/nvrs/rust.yml?style=for-the-badge&labelColor=%23a8127d&color=%23336795) [![docs.rs](https://img.shields.io/docsrs/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)](#documentation)<br>
 [![GitHub Contributors](https://img.shields.io/github/contributors-anon/koibtw/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)](https://github.com/koibtw/nvrs/graphs/contributors) ![GitHub Repo Size](https://img.shields.io/github/repo-size/koibtw/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795) ![Repo Created At](https://img.shields.io/github/created-at/koibtw/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)
 
-![banner](/banner.webp)
-
 </div>
 
 ## Features
