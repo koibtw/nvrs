@@ -11,6 +11,7 @@ let
       rustfmt
       rust-analyzer
       git-cliff
+      mdbook
       just
     ]
     ++ (mainPkg.nativeBuildInputs or [ ])
