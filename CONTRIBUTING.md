@@ -1,8 +1,8 @@
 # Contributing
 
-Thank you for considering contributing to [nvrs](https://github.com/adamperkowski/nvrs) ❤️
+Thank you for considering contributing to [nvrs](https://github.com/koibtw/nvrs) ❤️
 
-If, while viewing the code, you find any parts unclear or unexplained, please [open an issue](https://github.com/adamperkowski/nvrs/issues/new/choose) with a documentation request.
+If, while viewing the code, you find any parts unclear or unexplained, please [open an issue](https://github.com/koibtw/nvrs/issues/new/choose) with a documentation request.
 
 Note that we have a [Code of Conduct](./CODE_OF_CONDUCT.md). Please follow it in all your interactions with the project.
 
@@ -13,9 +13,9 @@ Note that we have a [Code of Conduct](./CODE_OF_CONDUCT.md). Please follow it in
 2. Clone your forked repository.
 
 ```sh
-git clone https://github.com/adamperkowski/nvrs && cd nvrs
+git clone https://github.com/koibtw/nvrs && cd nvrs
 # OR
-git clone git@github.com:adamperkowski/nvrs && cd nvrs
+git clone git@github.com:koibtw/nvrs && cd nvrs
 ```
 
 3. Make sure that you have [Rust](https://rust-lang.org) installed and build the project.
@@ -40,7 +40,7 @@ git commit -m "changelog for $(git rev-parse --short HEAD)"
 
 1. Ensure that you updated the documentation and filled the [Pull Request template](./.github/PULL_REQUEST_TEMPLATE.md) according to the changes you made.
 
-2. Push the changes and [open a Pull Request](https://github.com/adamperkowski/nvrs/pull/new).
+2. Push the changes and [open a Pull Request](https://github.com/koibtw/nvrs/pull/new).
 
 3. Wait for review from the project's [CODE OWNER](./.github/CODEOWNERS). Update the Pull Request accordingly.
 

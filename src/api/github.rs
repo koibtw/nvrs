@@ -81,7 +81,7 @@ async fn request_test() {
         request_client: reqwest::Client::new(),
         package: package.clone(),
         use_max_tag: None,
-        args: vec![format!("adamperkowski/{}", package)],
+        args: vec![format!("koibtw/{}", package)],
         api_key: String::new(),
     };
 

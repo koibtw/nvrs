@@ -45,7 +45,7 @@ rustPlatform.buildRustPackage {
     inherit (p) description homepage;
     changelog = ./CHANGELOG.md;
     license = lib.licenses.mit;
-    maintainers = with lib.maintainers; [ adamperkowski ];
+    maintainers = with lib.maintainers; [ koi ];
     mainProgram = p.name;
   };
 }

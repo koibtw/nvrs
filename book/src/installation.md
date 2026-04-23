@@ -21,11 +21,11 @@ makepkg -si
 
 ### Flakes
 
-There is a [flake](https://github.com/adamperkowski/nvrs/blob/main/flake.nix) available. <br>
+There is a [flake](https://github.com/koibtw/nvrs/blob/main/flake.nix) available. <br>
 You can run it directly with:
 
 ```bash
-nix run github:adamperkowski/nvrs
+nix run github:koibtw/nvrs
 ```
 or install it by adding the following to your `flake.nix`:
 
@@ -33,7 +33,7 @@ or install it by adding the following to your `flake.nix`:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    nvrs.url = "github:adamperkowski/nvrs";
+    nvrs.url = "github:koibtw/nvrs";
   };
 
   outputs = { self, nixpkgs, nvrs }: {
@@ -62,7 +62,7 @@ You can use it in your `home.nix` like this:
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nvrs.url = "github:adamperkowski/nvrs";
+    nvrs.url = "github:koibtw/nvrs";
   };
 
   outputs = { self, nixpkgs, home-manager, nvrs }: {
@@ -98,7 +98,7 @@ cargo install nvrs --all-features
 note that crates installed using `cargo install` require manual updating with `cargo install --force`.
 
 ## Manual
-1. download the latest binary from [GitHub's release page](https://github.com/adamperkowski/nvrs/releases/latest)
+1. download the latest binary from [GitHub's release page](https://github.com/koibtw/nvrs/releases/latest)
 2. allow execution
 ```sh
 chmod +x nvrs

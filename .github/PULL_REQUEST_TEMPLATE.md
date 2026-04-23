@@ -1,5 +1,5 @@
-<!--                READ THE CONTRIBUTING GUIDELINES                 -->
-<!-- https://github.com/adamperkowski/nvrs/blob/main/CONTRIBUTING.md -->
+<!--            READ THE CONTRIBUTING GUIDELINES              -->
+<!-- https://github.com/koibtw/nvrs/blob/main/CONTRIBUTING.md -->
 
 # [TITLE]
 

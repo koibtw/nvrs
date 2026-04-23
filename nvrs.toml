@@ -1,5 +1,5 @@
 # this is an example configuration file for nvrs
-# https://github.com/adamperkowski/nvrs
+# https://github.com/koibtw/nvrs
 
 [__config__]
 oldver = "oldver.json"

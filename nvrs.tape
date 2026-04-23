@@ -56,6 +56,6 @@ Enter
 Sleep 2s
 
 Enter
-Type "4. go on github.com/adamperkowski/nvrs & leave a star"
+Type "4. go on github.com/koibtw/nvrs & leave a star"
 
 Sleep 4s

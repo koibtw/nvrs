@@ -1,16 +1,16 @@
 [book]
-authors = ["Adam Perkowski"]
+authors = ["june"]
 language = "en"
 multilingual = false
 src = "src"
 title = "nvrs"
 
 [output.html]
-cname = "nvrs.adamperkowski.dev"
+cname = "nvrs.koi.rip"
 default-theme = "nvrs"
 preferred-dark-theme = "nvrs"
-git-repository-url = "https://github.com/adamperkowski/nvrs"
-edit-url-template = "https://github.com/adamperkowski/nvrs/edit/main/book/{path}"
+git-repository-url = "https://github.com/koibtw/nvrs"
+edit-url-template = "https://github.com/koibtw/nvrs/edit/main/book/{path}"
 additional-css = ["./theme/custom.css"]
 
 [output.html.search]

@@ -7,7 +7,7 @@ updates:
     schedule:
       interval: "weekly"
     assignees:
-      - "adamperkowski"
+      - "koibtw"
     labels:
       - "deps"
     commit-message:

@@ -1,6 +1,6 @@
 //! operations on configuration files
 //!
-//! see the [example `nvrs.toml`](https://github.com/adamperkowski/nvrs/blob/main/nvrs.toml)
+//! see the [example `nvrs.toml`](https://github.com/koibtw/nvrs/blob/main/nvrs.toml)
 
 use crate::error;
 use serde::{Deserialize, Serialize};
@@ -13,7 +13,7 @@ use tokio::{fs, io::AsyncWriteExt};
 
 /// main configuration file structure
 ///
-/// see the [example `nvrs.toml`](https://github.com/adamperkowski/nvrs/blob/main/nvrs.toml)
+/// see the [example `nvrs.toml`](https://github.com/koibtw/nvrs/blob/main/nvrs.toml)
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Config {
     /// `__config__` table
@@ -25,7 +25,7 @@ pub struct Config {
 
 /// `__config__` table structure
 ///
-/// see the [example `nvrs.toml`](https://github.com/adamperkowski/nvrs/blob/main/nvrs.toml)
+/// see the [example `nvrs.toml`](https://github.com/koibtw/nvrs/blob/main/nvrs.toml)
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct ConfigTable {
     /// path to the `oldver` file
@@ -38,7 +38,7 @@ pub struct ConfigTable {
 
 /// package entry structure
 ///
-/// see the [example `nvrs.toml`](https://github.com/adamperkowski/nvrs/blob/main/nvrs.toml)
+/// see the [example `nvrs.toml`](https://github.com/koibtw/nvrs/blob/main/nvrs.toml)
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Package {
     source: String, // ex. "github", "aur"
@@ -174,12 +174,12 @@ impl Package {
     /// ```rust
     /// use nvrs::config::Package;
     ///
-    /// let package = Package::new("github".to_string(), "adamperkowski/nvrs".to_string(),
+    /// let package = Package::new("github".to_string(), "koibtw/nvrs".to_string(),
     /// false, "v".to_string()).unwrap();
     ///
     /// let args = package.get_api();
     ///
-    /// assert_eq!(args, ("github".to_string(), vec!["adamperkowski/nvrs".to_string()]))
+    /// assert_eq!(args, ("github".to_string(), vec!["koibtw/nvrs".to_string()]))
     /// ```
     pub fn get_api(&self) -> (String, Vec<String>) {
         let self_ref = self.to_owned();

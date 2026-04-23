@@ -4,8 +4,8 @@
 🚦 fast new version checker for software releases 🦀
 
 [![Grind Compliant](https://img.shields.io/badge/Grind-Compliant-blue?style=for-the-badge&labelColor=%23a8127d&color=%23336795)](https://github.com/The-Grindhouse/guidelines)<br>
-![Build Status](https://img.shields.io/github/actions/workflow/status/adamperkowski/nvrs/rust.yml?style=for-the-badge&labelColor=%23a8127d&color=%23336795) [![docs.rs](https://img.shields.io/docsrs/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)](#documentation)<br>
-[![GitHub Contributors](https://img.shields.io/github/contributors-anon/adamperkowski/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)](https://github.com/adamperkowski/nvrs/graphs/contributors) ![GitHub Repo Size](https://img.shields.io/github/repo-size/adamperkowski/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795) ![Repo Created At](https://img.shields.io/github/created-at/adamperkowski/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)
+![Build Status](https://img.shields.io/github/actions/workflow/status/koibtw/nvrs/rust.yml?style=for-the-badge&labelColor=%23a8127d&color=%23336795) [![docs.rs](https://img.shields.io/docsrs/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)](#documentation)<br>
+[![GitHub Contributors](https://img.shields.io/github/contributors-anon/koibtw/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)](https://github.com/koibtw/nvrs/graphs/contributors) ![GitHub Repo Size](https://img.shields.io/github/repo-size/koibtw/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795) ![Repo Created At](https://img.shields.io/github/created-at/koibtw/nvrs?style=for-the-badge&labelColor=%23a8127d&color=%23336795)
 
 ![banner](/banner.webp)
 
@@ -13,7 +13,7 @@
 
 ## Features
 ### [nvchecker](https://github.com/lilydjwg/nvchecker) compatibility
-check the [release notes](https://github.com/adamperkowski/nvrs/releases) and [configuration docs](#configuration) for compatibility updates and instructions.
+check the [release notes](https://github.com/koibtw/nvrs/releases) and [configuration docs](#configuration) for compatibility updates and instructions.
 
 ### Speed
 <img align='right' src='https://media1.tenor.com/m/mMWXOkCEndoAAAAC/ka-chow-lightning-mcqueen.gif' alt='ka-chow' width=80 height=45>
@@ -42,10 +42,10 @@ check the [release notes](https://github.com/adamperkowski/nvrs/releases) and [c
 ## Installation
 <a href="https://repology.org/project/nvrs/versions"><img align="right" src="https://repology.org/badge/vertical-allrepos/nvrs.svg" alt="Packaging status"></a>
 
-see the [installation guide](https://nvrs.adamperkowski.dev/installation.html) for instructions on how to install nvrs.
+see the [installation guide](https://nvrs.koi.rip/installation.html) for instructions on how to install nvrs.
 
 ## Usage
-nvrs relies on a configuration file. see [configuration](https://nvrs.adamperkowski.dev/configuration.html). 
+nvrs relies on a configuration file. see [configuration](https://nvrs.koi.rip/configuration.html). 
 
 <img align='center' src='https://vhs.charm.sh/vhs-7j0ZLSJUnq5W8xwqjK14W4.gif' alt='Packaging status'>
 
@@ -59,7 +59,7 @@ the core commands are:
 ### Example usage
 ```sh
 # download the example configuration file
-curl -L 'https://github.com/adamperkowski/nvrs/raw/main/nvrs.toml' -o nvrs.toml
+curl -L 'https://github.com/koibtw/nvrs/raw/main/nvrs.toml' -o nvrs.toml
 
 # fetch latest package versions (should return `NONE -> version` for all packages)
 nvrs --no-fail
@@ -74,13 +74,13 @@ nvrs -t ALL
 for all available commands, options and flags, see `nvrs --help` and the [manual page](/man/nvrs.1).
 
 ## Documentation
-full documentation can be found at [nvrs.adamperkowski.dev](https://nvrs.adamperkowski.dev).
+full documentation can be found at [nvrs.koi.rip](https://nvrs.koi.rip).
 nvrs library documentation can be found at [docs.rs/nvrs](https://docs.rs/nvrs/latest/nvrs)
 
 ## Contributing
 if you want to contribute to the project, please read the [Contributing Guidelines](/CONTRIBUTING.md) before doing so.
 
-if you find any parts of the code or the documentation unclear, or have any suggestions, feel free to [open an issue](https://github.com/adamperkowski/nvrs/issues/new/choose) or a [pull request](https://github.com/adamperkowski/nvrs/pull/new).
+if you find any parts of the code or the documentation unclear, or have any suggestions, feel free to [open an issue](https://github.com/koibtw/nvrs/issues/new/choose) or a [pull request](https://github.com/koibtw/nvrs/pull/new).
 
 ## Credits
 - [依云](https://github.com/lilydjwg) | the original [nvchecker](https://github.com/lilydjwg/nvchecker)
@@ -88,6 +88,6 @@ if you find any parts of the code or the documentation unclear, or have any sugg
 
 <div align='center'>
 
-<sub align='center'>Copyright (c) 2025 Adam Perkowski<br>see [LICENSE](/LICENSE)</sub>
+<sub align='center'>Copyright (c) 2025 june<br>see [LICENSE](/LICENSE)</sub>
 
 </div>

@@ -9,7 +9,7 @@ let
   settingsFormat = pkgs.formats.toml { };
 in
 {
-  meta.maintainers = with lib.maintainers; [ adamperkowski ];
+  meta.maintainers = with lib.maintainers; [ koi ];
 
   options.programs.nvrs = {
     enable = lib.mkEnableOption "fast new version checker for software releases";
@@ -29,7 +29,7 @@ in
       description = ''
         Configuration written to {file}`$XDG_CONFIG_HOME/nvrs/config.toml`
 
-        See <https://nvrs.adamperkowski.dev/configuration.html> for details.
+        See <https://nvrs.koi.rip/configuration.html> for details.
       '';
     };
   };

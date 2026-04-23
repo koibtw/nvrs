@@ -1,5 +1,5 @@
 # keyfile structure
-this file contains API keys for various [sources](https://github.com/adamperkowski/nvrs?tab=readme-ov-file#sources). example can be found [here](https://github.com/adamperkowski/nvrs/blob/main/n_keyfile.toml).
+this file contains API keys for various [sources](https://github.com/koibtw/nvrs?tab=readme-ov-file#sources). example can be found [here](https://github.com/koibtw/nvrs/blob/main/n_keyfile.toml).
 
 ```toml
 [keys]

@@ -3,17 +3,17 @@
 
 fast new version checker for software releases
 
-documentation for bleeding-edge main can be found at [https://nvrs.adamperkowski.dev/main](https://nvrs.adamperkowski.dev/main)
+documentation for bleeding-edge main can be found at [https://nvrs.koi.rip/main](https://nvrs.koi.rip/main)
 
 keep in mind that this website is still a WIP
 
-[see at GitHub](https://github.com/adamperkowski/nvrs)
+[see at GitHub](https://github.com/koibtw/nvrs)
 
 ## copyright
 ```
 MIT License
 
-Copyright (c) 2025 Adam Perkowski
+Copyright (c) 2025 june
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

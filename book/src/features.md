@@ -1,6 +1,6 @@
 # features
 ### [nvchecker](https://github.com/lilydjwg/nvchecker) compatibility
-check the [release notes](https://github.com/adamperkowski/nvrs/releases) and [configuration docs](/configuration.html) for compatibility updates and instructions
+check the [release notes](https://github.com/koibtw/nvrs/releases) and [configuration docs](/configuration.html) for compatibility updates and instructions
 
 ### speed
 <img align='right' src='https://media1.tenor.com/m/mMWXOkCEndoAAAAC/ka-chow-lightning-mcqueen.gif' alt='ka-chow' width=80 height=45>
@@ -12,4 +12,4 @@ check the [release notes](https://github.com/adamperkowski/nvrs/releases) and [c
 | `nvrs --take` | ~ 0.001s                     | depends on disk speed                                  |
 
 ### sources
-see the [project's readme](https://github.com/adamperkowski/nvrs?tab=readme-ov-file#sources) for a list of supported sources
+see the [project's readme](https://github.com/koibtw/nvrs?tab=readme-ov-file#sources) for a list of supported sources

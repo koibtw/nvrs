@@ -6,7 +6,7 @@
 //!
 //! new features & bugfixes are being pushed every day
 //!
-//! you may encounter some issues. please consider [submitting feedback](https://github.com/adamperkowski/nvrs/issues/new/choose) if you do.
+//! you may encounter some issues. please consider [submitting feedback](https://github.com/koibtw/nvrs/issues/new/choose) if you do.
 //!
 //! </div>
 
@@ -53,7 +53,7 @@ pub struct Core {
 /// use nvrs::{run_source, config};
 ///
 /// let package_name = "nvrs".to_string();
-/// let package = config::Package::new("github".to_string(), "adamperkowski/nvrs".to_string(), false, "v".to_string()).unwrap();
+/// let package = config::Package::new("github".to_string(), "koibtw/nvrs".to_string(), false, "v".to_string()).unwrap();
 ///
 /// let client = reqwest::Client::new();
 ///

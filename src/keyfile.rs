@@ -1,6 +1,6 @@
 //! operations on keyfiles
 //!
-//! see the [example `nvrs.toml`](https://github.com/adamperkowski/nvrs/blob/main/nvrs.toml) & [example `keyfile.toml`](https://github.com/adamperkowski/nvrs/blob/main/n_keyfile.toml)
+//! see the [example `nvrs.toml`](https://github.com/koibtw/nvrs/blob/main/nvrs.toml) & [example `keyfile.toml`](https://github.com/koibtw/nvrs/blob/main/n_keyfile.toml)
 
 use crate::{config, error};
 use serde::Deserialize;
@@ -17,7 +17,7 @@ pub struct Keyfile {
 
 /// `[keys]` table structure
 ///
-/// see the [example `keyfile.toml`](https://github.com/adamperkowski/nvrs/blob/main/n_keyfile.toml)
+/// see the [example `keyfile.toml`](https://github.com/koibtw/nvrs/blob/main/n_keyfile.toml)
 #[derive(Clone, Deserialize)]
 struct KeysTable {
     #[cfg(feature = "github")]
